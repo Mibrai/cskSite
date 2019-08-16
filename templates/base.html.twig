@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ asset('assets/css/home.css') }}">
+        <link rel="stylesheet" href="{{asset('assets/css/bootstrap/css/bootstrap.min.css') }}">
+        <script src="{{ asset('assets/js/home.js') }}"></script>
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        <div class="container">
+                <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a class="navbar-brand" href="#">CSK</a>
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Organisation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us </a>
+                        </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btn_perso">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        {% block bl_banner %}
+            <!-- Navbar -->
+            <!-- .. ........ -->
+        {% endblock %}
+         {% block bl_slideshow %}{% endblock %}
+         {% block bl_content %}
+             {% block sbl_welcome %}{% endblock %}
+             {% block sbl_mission %}{% endblock %}
+             {% block sbl_comingEvent %}{% endblock %}
+             {% block sbl_lastBlog %}{% endblock %}
+             {% block sbl_sponsorSlide %}{% endblock %}
+         {% endblock %}
+        {% block bl_footer %}
+
+              <!-- Block Footer  -->
+        <div class="container-fluid" id="div_footer">
+            <div class="row" style="width:97.3%; margin-left:2%">
+                <div class="col-sm">
+                    <div class="card_contact">
+                        <div class="card-header">Contacts</div>
+                        <div class="card_link">
+                            <p><a href="#" ><img src="{{ asset('assets/images/icone_phone.png') }}" alt="Logo">+49 179 72158</a></p>
+                             <p><a href="#" ><img src="{{ asset('assets/images/icone_msg.png') }}" alt="Logo">csk@yahoo.com</a></p>
+                            <p><a href="#" ><img src="{{ asset('assets/images/icone_skype.png') }}" alt="Logo">cskOnline</a></p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-sm" id="footer_social">
+                    <div class="card_contact">
+                        <div class="card-header">Social Channel</div>
+                        <div class="card_link">
+                            <p><a href="#" ><img src="{{ asset('assets/images/icons8_Twitter_32px.png') }}" alt="Logo">@csk_verein</a></p>
+                            <p><a href="#" ><img src="{{ asset('assets/images/icons8_Facebook_32px.png') }}" alt="Logo">csk_verein</a></p>
+                            <p><a href="#" ><img src="{{ asset('assets/images/icons8_LinkedIn_32px.png') }}" alt="Logo">#csk_verein</a></p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-sm" style="border-left:1px dashed blue;   border-right:1px dashed blue; height:250px; text-align:center">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Newsletter</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Newsletter</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% endblock %}
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="{{asset('assets/css/bootstrap/js/bootstrap.min.js')}}" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+       <!-- {% block javascripts %}{% endblock %} -->
+    </body>
+</html>

@@ -1,0 +1,170 @@
+.bannerStyle{
+    background-image: linear-gradient(to left top, #192c4a, #003345, #033738, #20382c, #323727);
+    width:95%;
+    margin-left:2.5rem;
+}
+#img_div img{
+    width:250px; 
+    height:150px; 
+    margin-left:-2.5rem; 
+    margin-top:-0.3rem;
+}
+/* Design Panel Hour De*/
+#systemHourDe span{
+    height:50px;
+    margin-top:5rem;
+    margin-left:2rem;
+    background-image: linear-gradient(to right top, #192c4a, #003345, #033738, #20382c, #323727);
+}
+#systemHourDe br{
+    margin:5px;
+    margin-top:-20px;
+}
+#systemHourDe img{
+    position:absolute;
+    height: 50px;
+    width:50px;
+    margin-left:-2rem;
+    margin-top:5.5rem;
+}
+/* Design Panel Hour  Cmr */
+#systemHourCmr span{
+    height:50px;
+    margin-top:5rem;
+    margin-left:3rem;
+    background-image: linear-gradient(to right top, #192c4a, #003345, #033738, #20382c, #323727);
+}
+#systemHourCmr br{
+    margin:5px;
+    margin-top:-20px;
+}
+#systemHourCmr img{
+    position:absolute;
+    height: 50px;
+    width:50px;
+    margin-left:-0.5rem;
+    margin-top:5.5rem;
+}
+#btn_perso:hover{
+    background-image: linear-gradient(to right top, #192c4a, #003345, #033738, #20382c, #323727);
+    color:white;
+    border-color:white;
+}
+#div_slogan{
+    position: absolute;
+    margin-left:17rem;
+}
+#div_slogan span{
+    height:70px ;
+    background-image: linear-gradient(to left bottom, #192c4a, #003345, #033738, #20382c, #323727);
+    box-shadow:2px 2px 2px 2px #003345;
+    padding:20px;
+    font-family: cambria;
+    font-size:26px;
+}
+#textGreen{
+    color:green;
+}
+#textRed{
+    color:red;
+}
+#textYellow{
+    color:yellow;
+}
+#imgAct_div img{
+    width:250px; 
+    height:140px; 
+    margin-left:-2.3rem; 
+    margin-top:0.3rem;
+}
+#imgLanguage_div{
+    position:absolute;
+    margin-left:72rem;
+    height:120px;
+    border:none;
+    width:50px;
+    margin-top:2rem;
+}
+#imgLanguage_div img{
+    width:30px;
+    height:30px;
+    padding:5px;
+}
+#imgLanguage_div a img:hover{
+    padding:3px;
+}
+#div_footer{
+    background-image: linear-gradient(to left top, #192c4a, #003345, #033738, #20382c, #323727);
+    width:95%;
+    margin-left:2.5rem;
+    
+}
+.card-body  p a  img{
+    height: 30px;
+    width: 30px;
+}
+.card-body a{
+    font-size:15px;
+}
+.card-text{
+    width:250px;
+    border:none;
+    padding-top:-5px;
+}
+.card-text a{
+    width:250px;
+    height:40px;
+   
+}
+.card_link img{
+    margin:5px;
+}
+.card_contact{
+    color:white;
+}
+.card_link p a{
+    background: none;
+    color:white;
+}
+.navbar{
+     background-image: linear-gradient(to left top,  #033738, #003345, #033738, #20382c, #323727);
+}
+#bloc_welcome{
+    color:grey;
+    font-family:cambria;
+}
+.card-header{
+    background-image: linear-gradient(to right top, #192c4a, #003345, #033738, #20382c, #323727);
+    color:white;
+}
+#bloc_slide .row {
+    border:none;   
+    background-image: linear-gradient(to right top, #192c4a, #003345, #033738, #20382c, #323727);
+}
+#bloc_slide img{
+    border-radius: 10px 10px 10px 10px;
+    height:500px;
+}
+#div_mission_administration{
+    background-image: url("../images/icons8_Settings_72px.png");
+    color:black;
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size:150px;
+}
+#div_mission_integrity{
+    background-image: url("../images/icons8_Student_Male_72px.png");
+    color:black;
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size:150px;
+    height:135px;
+}
+#div_mission_society{
+    background-image: url("../images/icons8_User_Groups_72px_3.png");
+    color:black;
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size:150px;
+    height:135px;
+}
